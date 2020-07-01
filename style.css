@@ -1,0 +1,109 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: rgb(80,47,255);
+  background: linear-gradient(90deg, rgba(80,47,255,1) 11%, rgba(183,55,246,1) 83%);
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.secret {
+  background: lemonchiffon;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.secret, .secret h1 {
+  color: brown;
+}
+
+#intro {
+  color: lightgray;
+  text-align: center;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  height: 700px;
+  background-color: #261F58;
+  margin-top: 80px;
+  padding-top: 100px;
+}
+
+input[type=email]{
+  margin-bottom: 5px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  caret-color: white;
+  width: 300px;
+}
+
+input[type=password]{
+  margin-bottom: 5px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  caret-color: white;
+  width: 300px;
+}
+
+input[type=submit]{
+  background-color: white;
+  border: none;
+  border-radius: 32px;
+  color: darkblue;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+label {
+  color: #A7A6D0;
+}
+
+label[for=password]{
+  margin-top: 10px;
+}
+
+#oubli {
+  color: #A7A6D0;
+}
+
+#reset {
+  color: white;
+}
+
+#truediamond {
+  margin-top: 170px;
+  color: #A7A6D0;
+}
+
+img {
+  width: 110px;
+  height: auto;
+}
